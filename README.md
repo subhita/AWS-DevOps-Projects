@@ -1,5 +1,3 @@
-# AWS-DevOps-Projects
-
 # AWS Continuous Integration Process
 
 Step1: Set Up GitHub Repository
