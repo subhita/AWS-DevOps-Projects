@@ -1,4 +1,5 @@
 #AWS Continuous Integration Process
+
 Step1: Set Up GitHub Repository
 
 Step2: Create an AWS CodePipeline :- Created an AWS CodePipeline to automate the continuous integration process for our Python application. AWS CodePipeline will orchestrate the flow of changes from our GitHub repository to the deployment of the application.
