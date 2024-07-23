@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.8
+    commands:
+      - pip install -r requirements.txt
+  build:
+    commands:
+      - python -m unittest discover -s tests/  # Example: Run unit tests
+      - python setup.py sdist  # Example: Package your application
+artifacts:
+  files:
+    - '**/*'
